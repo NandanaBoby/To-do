@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const toggleEmptyState = () => {
         emptyImage.style.display = taskList.children.length === 0 ? 'block' : 'none'; 
-        todosContainer.style.width = taskList.children.length === 0 ? '100%' : '50%';
+        todosContainer.style.width = taskList.children.length > 0 ? '100%' : '50%';
     };
 
     const updateProgress = (checkCompletion = true) => {
