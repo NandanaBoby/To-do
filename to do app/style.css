@@ -155,6 +155,11 @@ body {
     word-wrap: break-word;
 }
 
+#task-list li.completed span{
+    text-decoration: 2px line-through #6342a1;
+    color: #25114a;
+}
+
 .task-buttons {
     display: flex;
     gap: 10px;
