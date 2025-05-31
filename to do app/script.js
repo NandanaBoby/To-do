@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (checkCompletion && totalTasks > 0 && completedTasks === totalTasks) {
             Confetti();
+        }
     };
 
     const saveTaskToLocalStorage = () => {
